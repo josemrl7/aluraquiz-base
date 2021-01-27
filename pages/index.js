@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>AluraQuiz - Modelo Base</title>
+        <title>AluraQuiz - Samba</title>
       </Head>
       <QuizContainer>
         <QuizLogo />
@@ -69,14 +69,14 @@ export default function Home() {
 
         <Widget>
           <Widget.Content>
-            <h1>Quizes da Galera</h1>
+            <h1>Quiz de Samba</h1>
 
             <p>lorem ipsum dolor sit amet...</p>
           </Widget.Content>
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/omariosouto" />
+      <GitHubCorner projectUrl="https://github.com/josemrl7/aluraquiz-base" />
     </QuizBackground>
   );
 }
